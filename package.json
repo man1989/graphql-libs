@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "npm run build",
-    "build": "tsup tsup.config.ts",
+    "build": "tsup ./tsup.config.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
