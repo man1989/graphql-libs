@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "postinstall": "npm run build",
-    "build": "tsup ./tsup.config.ts",
+    "prepare": "npm run build",
+    "build": "tsup",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
