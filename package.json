@@ -40,22 +40,28 @@
       "require": "./dist/index.js"
     },
     "./config": {
-      "types": "./dist/libs/index.d.ts",
-      "import": "./dist/libs/index.mjs",
-      "module": "./dist/libs/index.mjs",
-      "require": "./dist/libs/index.js"
+      "types": "./dist/libs/config/index.d.ts",
+      "import": "./dist/libs/config/index.mjs",
+      "module": "./dist/libs/config/index.mjs",
+      "require": "./dist/libs/config/index.js"
     },
     "./logger": {
-      "types": "./dist/libs/index.d.ts",
-      "import": "./dist/libs/index.mjs",
-      "module": "./dist/libs/index.mjs",
-      "require": "./dist/libs/index.js"
+      "types": "./dist/libs/logger/index.d.ts",
+      "import": "./dist/libs/logger/index.mjs",
+      "module": "./dist/libs/logger/index.mjs",
+      "require": "./dist/libs/logger/index.js"
     },
     "./datasources": {
-      "types": "./dist/libs/index.d.ts",
-      "import": "./dist/libs/index.mjs",
-      "module": "./dist/libs/index.mjs",
-      "require": "./dist/libs/index.js"
+      "types": "./dist/libs/datasources/index.d.ts",
+      "import": "./dist/libs/datasources/index.mjs",
+      "module": "./dist/libs/datasources/index.mjs",
+      "require": "./dist/libs/datasources/index.js"
+    },
+    "./errors": {
+      "types": "./dist/libs/errors/index.d.ts",
+      "import": "./dist/libs/errors/index.mjs",
+      "module": "./dist/libs/errors/index.mjs",
+      "require": "./dist/libs/errors/index.js"
     }
   }
 }
