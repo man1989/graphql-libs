@@ -1,5 +1,5 @@
 {
-    "extends": "./libs/tsconfig/tsconfig.json",
+    "extends": "../tsconfig/tsconfig.json",
     "include": ["libs/**/*.ts", "index.ts"],
     "exclude": ["node_modules", "dist"],
     "compilerOptions": {

@@ -1,0 +1,10 @@
+{
+  "name": "@graphql-libs/tsconfig-base",
+  "version": "1.0.0",
+  "author": "",
+  "license": "MIT",
+  "description": "",
+  "dependencies": {
+    "@tsconfig/node20": "20.1.4"
+  }
+}

@@ -3,14 +3,14 @@ import { GraphQLSchema } from "graphql";
 
 import { DatasourceType } from "./libs/datasources";
 
-export abstract class BaseModule {
-    protected APP_NAME="base";
+export abstract class SubgraphBase {
+    protected name: string = "base";
     
     constructor(appname: string){
-        if(this.APP_NAME === "base" && !appname){
-            throw new Error("Please provide your appname or override APP_NAME");
+        if(this.name === "base" && !appname){
+            throw new Error("Please provide your appname or override \"name\" property");
         }
-        this.APP_NAME = appname;
+        this.name = appname;
     }
     
     abstract getResolvers<TContext = unknown>(): IResolvers<unknown, TContext>;
@@ -22,6 +22,6 @@ export abstract class BaseModule {
     abstract getContext(): {datasources: DatasourceType}
 
     getAppname(){
-        return this.APP_NAME;
+        return this.name;
     }
 }
