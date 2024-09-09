@@ -20,7 +20,7 @@
     "@graphql-tools/utils": "10.5.4"
   },
   "devDependencies": {
-    "@graphql-libs/tsconfig-base": "workspace:*",
+    "@graphql-libs/tsconfig-base": "*",
     "@types/node": "^22.5.4",
     "dotenv": "16.4.5",
     "tsup": "8.2.4",
