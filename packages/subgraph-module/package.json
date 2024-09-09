@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "Manish Kumar",
   "license": "MIT",
+  "private": true,
   "description": "Common library for building domain subgraph",
   "scripts": {
     "build": "tsup",

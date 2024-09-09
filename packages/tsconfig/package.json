@@ -1,6 +1,7 @@
 {
   "name": "@graphql-libs/tsconfig-base",
   "version": "0.1.5",
+  "private": true,
   "author": "Manish Kumar",
   "license": "MIT",
   "description": "Base tsconfig file",
