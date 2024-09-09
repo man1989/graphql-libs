@@ -1,5 +1,5 @@
 {
-  "name": "@man1989/subgraph-module",
+  "name": "@graphql-libs/subgraph-module",
   "version": "0.1.5",
   "main": "index.js",
   "author": "Manish Kumar",

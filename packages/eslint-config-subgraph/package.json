@@ -1,5 +1,5 @@
 {
-  "name": "@man1989/tslint-base",
+  "name": "@graphql-libs/tslint-base",
   "version": "0.1.5",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
