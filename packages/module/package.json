@@ -1,6 +1,6 @@
 {
   "name": "@man1989/subgraph-module",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "main": "index.js",
   "author": "Manish Kumar",
   "license": "MIT",
@@ -19,7 +19,7 @@
     "@graphql-tools/utils": "10.5.4"
   },
   "devDependencies": {
-    "@man1989/tsconfig-base": "*",
+    "@man1989/tsconfig-base": "^0.1.4",
     "@types/node": "22.5.4",
     "dotenv": "16.4.5",
     "tsup": "8.2.4",
