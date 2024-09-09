@@ -1,5 +1,5 @@
 {
-    "extends": "@graphql-libs/tsconfig-base",
+    "extends": "@man1989/tsconfig-base/tsconfig.json",
     "include": ["libs/**/*.ts", "index.ts"],
     "exclude": ["node_modules", "dist"],
     "compilerOptions": {

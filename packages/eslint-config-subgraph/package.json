@@ -4,12 +4,11 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "private": "true",
-  "author": "",
+  "author": "Manish Kumar",
   "license": "MIT",
   "description": "",
   "dependencies": {
-    "@graphql-eslint/eslint-plugin": "^4.0.0-alpha.2",
+    "@graphql-eslint/eslint-plugin": "4.0.0-alpha.2",
     "typescript-eslint": "8.3.0"
   }
 }
